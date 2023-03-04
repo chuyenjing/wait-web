@@ -1,0 +1,32 @@
+@keyframes change-color {
+    from{background-color: orange}
+    to{background-color: red}
+}
+.box{
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    min-height: 100%;
+    width: 100%;
+
+}
+img{
+    float: left;
+    position: relative;top:120px;left: 80px;
+}
+
+
+h1{
+    position: relative;top:90px;left: 150px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.animation{
+    animation-name:change-color ;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
